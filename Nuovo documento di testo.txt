@@ -1,0 +1,83 @@
+<html>
+ 
+2 <head>
+ 
+3 <title> Index </title>
+ 
+4 </head><html>
+ 
+5 <head>
+ 
+6 <title> Index </title>
+ 
+7 </head>
+ 
+8 <body>
+ 
+9 <h1> Prodotti </h1>
+ 
+10 
+ 
+11 <br>
+ 
+12 <br>
+ 
+13 <input type= "button" value= "Richiesta" onclick="Richiesta()"/>
+ 
+14 
+ 
+15 </form>
+ 
+16 
+ 
+17 <script type = "text/javascript">
+ 
+18 function Richiesta(){
+ 
+19 var n=0;
+ 
+20 var s=0;
+ 
+21 
+ 
+22 while(true){
+ 
+23 prod=prompt("Inserire il nome del prodotto (* per terminare)","");
+ 
+24 if(prod=="*"){
+ 
+25 break;
+ 
+26 };
+ 
+27 prez=prompt("Inserire il prezzo :","");
+ 
+28 
+ 
+29 window.alert("Nome prodotto: "+prod+", Prezzo prodotto :"+prez+".");
+ 
+30 
+ 
+31 s=Number(s)+Number(prez);
+ 
+32 }
+ 
+33 
+ 
+34 
+ 
+35 window.alert("Il prezzo totale è  "+s+" dei prodotti");
+ 
+36 }
+ 
+37 
+ 
+38 
+ 
+39 </script>
+ 
+40 
+ 
+41 </body>
+ 
+42 </html> 
